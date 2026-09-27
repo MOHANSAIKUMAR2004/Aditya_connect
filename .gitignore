@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+database/*.db
+backend/uploads/*
+!backend/uploads/images/
+!backend/uploads/videos/
+!backend/uploads/thumbnails/

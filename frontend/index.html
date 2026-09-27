@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aditya Connect</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div id="app">
+<section id="landing" class="landing">
+<nav class="topbar"><div class="brand"><span class="brand-mark">A</span> Aditya <b>Connect</b></div><div><button class="ghost" onclick="showAuth('login')">Login</button><button class="primary" onclick="showAuth('register')">Join Aditya Connect</button></div></nav>
+<div class="hero"><div class="hero-copy"><span class="pill">🎓 Built for Aditya students</span><h1>Your campus.<br><span>Your people.</span><br>Your community.</h1><p>Share moments, discover student talent, watch campus reels and build connections in one place.</p><div class="hero-actions"><button class="primary big" onclick="showAuth('register')">Join the community →</button><button class="ghost big" onclick="showAuth('login')">I already have an account</button></div></div><div class="hero-orbit"><div class="orb orb1">📸</div><div class="orb orb2">🎬</div><div class="orb orb3">💬</div><div class="phone"><div class="phone-head">Aditya Connect</div><div class="mini-post"><div class="avatar">M</div><div><b>Mohan</b><small>MCA · 1st Year</small></div></div><div class="mini-image"></div><div class="mini-actions">♡ 124 &nbsp; 💬 18 &nbsp; ↗</div></div></div></div>
+<div class="feature-grid"><article><i>📸</i><h3>Campus moments</h3><p>Share photos and videos with your student community.</p></article><article><i>🎬</i><h3>Campus Reels</h3><p>Scroll through short videos made by students.</p></article><article><i>🚀</i><h3>Student talent</h3><p>Discover creators, developers, artists and clubs.</p></article><article><i>🤝</i><h3>Communities</h3><p>Find departments, clubs and student groups.</p></article></div>
+</section>
+<section id="auth" class="auth hidden"><div class="auth-card"><button class="back" onclick="showLanding()">← Back</button><div class="brand center"><span class="brand-mark">A</span> Aditya <b>Connect</b></div><div id="authContent"></div></div></section>
+<section id="dashboard" class="hidden"></section>
+</div>
+<div id="toast"></div>
+<script src="/static/js/app.js"></script>
+</body></html>
